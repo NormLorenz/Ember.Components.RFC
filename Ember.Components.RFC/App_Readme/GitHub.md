@@ -5,6 +5,17 @@ OK this worked for me.
 1. Open the solution in Visual Studio 2013
 2. Select File | Add to Source Control
 3. Select the Microsoft Git Provider
+4. Click 'Changes' in the Team Explorer
+5. Add a comment and check it in
+6. Team Explorer displays something like this
+
+<pre><code>Commit c9f37129 created locally. Sync to share
+your changes with the server.</code></pre>
+
+- Open 'Manage NuGet Packages'
+- Click Settings
+- Check both boxes in 'Package Restore'
+- You may need to modify the .gitignore file if publish to GitHub pushes out the NuGet files
 
 <i>Note: You are encouraged to store your projects at c:\users\[your name]\Source\Repos\</i>
 
